@@ -1,4 +1,4 @@
-package core.model;
+package core.model.gameplay;
 
 import java.util.ArrayList;
 
@@ -8,11 +8,13 @@ import java.util.ArrayList;
  */
 public class World {
 
+    private static World instance;
+
     private ArrayList<GameObject> gameObjects;
     private Hero hero;
     private HeroManager heroManager;
 
-    public World() {
+    private World() {
         gameObjects = new ArrayList<GameObject>();
 
         hero = new Hero(200, 100, 0, 0.12f);
@@ -27,6 +29,14 @@ public class World {
         // TODO
     }
 
+    // Singleton pattern method
+    public static World getInstance() {
+        if (instance == null) {
+            instance = new World();
+        }
+        return instance;
+    }
+
     public ArrayList<GameObject> getGameObjects() {
         return gameObjects;
     }
@@ -38,5 +48,6 @@ public class World {
     public Hero getHero() {
         return hero;
     }
+
 
 }

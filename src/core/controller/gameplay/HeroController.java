@@ -1,9 +1,9 @@
-package core.controller;
+package core.controller.gameplay;
 
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Input;
 
-import core.model.HeroManager;
+import core.model.gameplay.HeroManager;
 import core.DirectionKey;
 
 /**

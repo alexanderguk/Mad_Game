@@ -1,8 +1,8 @@
-package core.view;
+package core.view.gameplay;
 
 import org.newdawn.slick.Graphics;
 
-import core.model.GameObject;
+import core.model.gameplay.GameObject;
 
 public abstract class GameObjectRenderer {
 

@@ -1,4 +1,4 @@
-package core.model;
+package core.model.gameplay;
 
 /**
  * Contains fields to define the hero state

@@ -1,4 +1,4 @@
-package core.model;
+package core.model.gameplay;
 
 /**
  * Contains common fields to define a game object

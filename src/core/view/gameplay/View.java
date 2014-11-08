@@ -1,4 +1,4 @@
-package core.view;
+package core.view.gameplay;
 
 public class View {
 

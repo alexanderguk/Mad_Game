@@ -1,10 +1,10 @@
-package core.view;
+package core.view.gameplay;
 
 import org.newdawn.slick.Graphics;
 import org.newdawn.slick.Image;
 import org.newdawn.slick.SlickException;
 
-import core.model.Wall;
+import core.model.gameplay.Wall;
 
 public class WallRenderer extends GameObjectRenderer {
 
